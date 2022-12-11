@@ -11,6 +11,12 @@ export const BEATS_MAP = {
     2: 1,
 };
 
+export const LOSE_MAP = {
+    0: 1,
+    1: 2,
+    2: 0,
+};
+
 export const data = `B Y
 A X
 B Y
