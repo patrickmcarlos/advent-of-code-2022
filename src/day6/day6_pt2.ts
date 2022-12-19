@@ -22,4 +22,4 @@ const findNumCharactersToFirstMarker = (input: string, windowSize: number) => {
     return ans;
 };
 
-console.log(findNumCharactersToFirstMarker(data, 4));
+console.log(findNumCharactersToFirstMarker(data, 14));
