@@ -7,7 +7,7 @@
     we find a folder at exactly one depth higher and associate the file to that folder
 */
 
-import { EXAMPLE_ONE } from './data';
+import { data, EXAMPLE_ONE } from './data';
 
 // directories will have no size
 // files will have no children
@@ -118,4 +118,4 @@ const findDirectoriesToDelete = (root: TreeChild, threshold: number) => {
     return sum;
 }
 
-console.log(findDirectoriesToDelete(generateTree(EXAMPLE_ONE), 100000));
+console.log(findDirectoriesToDelete(generateTree(data), 100000));
